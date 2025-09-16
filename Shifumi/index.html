@@ -2,7 +2,6 @@
 <html>
     <head>
         <title>R3.01 - Shifumi</title>
-        <script src="scripts/game.js"></script>
         <link rel="stylesheet" href="styles/index.css" type="text/css"/>
     </head>
     <body>
@@ -11,8 +10,14 @@
 
             </section>
             <section id="game">
-
+                <p>Tu as joué <span class="player-choice">N/A</span></p>
+                <p>Le résultat du tirage est <span class="game-choice">N/A</span></p>
+                <p>Le gagnant est donc <span class="winner-name">N/A</span></p>
+                <button class="game-buttons" id="stone">Pierre</button>
+                <button class="game-buttons" id="paper">Feuille</button>
+                <button class="game-buttons" id="scissors">Ciseaux</button>
             </section>
         </main>
+        <script src="scripts/game.js"></script>
     </body>
 </html>
